@@ -13,7 +13,6 @@
 	display: flex;
 	justify-content: center;
 }
-li{float: right;}
 li:not(:last-child):after{
 	content: "|";
 	color: black;
@@ -85,9 +84,9 @@ input, textarea {
 }
 td{
 	vertical-align: top;
-	text-align: center;
 }
-#send{
+#send, #send input{
 	width: 100px;
+	text-align: center;
 }
 
