@@ -1,3 +1,7 @@
+#logo{
+	float: left;
+	position: fixed;
+}
 #menu{
 	position: fixed;
 	width: 100%;
@@ -8,9 +12,9 @@
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
-	float: inherit;
 }
-li::after {
+li{float: right;}
+li:not(:last-child):after{
 	content: "|";
 	color: black;
 	top: 0;
